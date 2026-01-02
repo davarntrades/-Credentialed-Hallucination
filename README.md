@@ -316,7 +316,118 @@ GuardianOS™ is designed to operate **entirely in the pre-eventual zone** — e
 This is not optimization.  
 It is temporal governance.
 
----
+-----
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    WHAT GUARDIANOS™ ACTUALLY CHANGES                     │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+POST-EVENTUAL → Learning After Damage
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ACTION ──► OUTCOME/HARM ──► RECOGNITION ──► CORRECTION ──► [Next Action]
+       │            │                │               │
+       │            │                │               │
+    Execute      Cost paid      After damage     Update policy
+     first                       visible
+                              (often delayed by identity,
+                               authority, and institutional
+                               inertia)
+
+
+PRE-EVENTUAL → Governing Before Consequence
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                                    ┌─────────┐
+                                    │  BLOCK  │
+                                    └────▲────┘
+                                         │
+                                         │ FAIL
+                                         │
+    REASONING ──► PROPOSAL ──► CONSTRAINT CHECK
+                                         │
+                                         │ PASS
+                                         │
+                                         ▼
+                                   ┌──────────┐
+                                   │   SAFE   │
+                                   │ EXECUTION│
+                                   └──────────┘
+
+    ✓ No harm required for system to know action is disallowed
+    ✓ Safety guaranteed before execution, not learned after
+```
+
+-----
+
+-----
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│              THE FUNDAMENTAL ARCHITECTURAL DIFFERENCE                    │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+POST-EVENTUAL → Learning After Damage
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ACTION ──► OUTCOME/HARM ──► RECOGNITION ──► CORRECTION ──► [Next Action]
+       │            │                │               │
+       │            │                │               │
+    Execute      Cost paid      After damage     Update policy
+     first    (lawsuits,         visible
+              reputation,    (often delayed by
+              regulatory,     identity, authority,
+              financial)      and institutional
+                              inertia)
+
+
+PRE-EVENTUAL → Governing Before Consequence
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                                    ┌─────────┐
+                                    │  BLOCK  │
+                                    └────▲────┘
+                                         │
+                                         │ FAIL
+                                         │
+    REASONING ──► PROPOSAL ──► CONSTRAINT CHECK (Ω)
+                                         │
+                                         │ PASS
+                                         │
+                                         ▼
+                                   ┌──────────┐
+                                   │   SAFE   │
+                                   │ EXECUTION│
+                                   └──────────┘
+
+    ✓ No outcome required to know action is disallowed
+    ✓ Safety enforced before consequence, not learned after
+    ✓ No identity, authority, or institutional delay
+```
+
+-----
+
+-----
+
+```
+POST-EVENTUAL → Learning After Damage
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ACTION ──► OUTCOME/HARM ──► RECOGNITION ──► CORRECTION ──► [Next Action]
+       │            │                │               │
+       │            │                │               │
+    Execute      Cost paid      After damage     Update policy
+     first    (lawsuits,         visible
+              reputation,    (often delayed by
+              regulatory,     identity, authority,
+              financial)      and institutional
+                              inertia)
+                              
+                              ⏰ Delay: Days to decades
+```
 
 © 2025 Davarn Morrison. All rights reserved.  
 Part of the Physics of Cognition & Post-Eventual Systems research lineage
